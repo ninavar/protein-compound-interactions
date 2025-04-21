@@ -9,3 +9,8 @@ Xtestfeatnew.csv and Xtrainfeatnew.csv contain the physicochemical features of t
 ChemBERTA compound embeddings saved in ligand_embeddings_t12.npy. ESM2 protein embeddings saved in protein_embeddings_t12.py. File of compressed graphs > 25MB so included code to generate graphs, and generate GearNet embeddings, and .zip of GearNet embeddings.
 
 Independent test set curated from PDBbind general-set saved in general-testing-set.csv.
+
+The Jupyter Notebooks and Python programs for the experiments run are uploaded, named appropriately according to the model and experiment. Note: the results in the mlp_nested_X notebooks are when an alternative loss function was used, but the code was since updated to reflect the implementations from which we recorded and discussed results in the report. The scatter plot was also not rerun for the alternateive loss function, so reflects the predictions from the original results.
+
+## Acknowledgements
+Some of the experiments utilsed code from foxtrotmike/BioTools GitHub. The experiments were ran using the Batch Compute System in the Department of Computer Science at the University of Warwick, and associated support services.
