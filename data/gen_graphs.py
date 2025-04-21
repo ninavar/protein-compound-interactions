@@ -23,6 +23,7 @@ def amino_shorten(r):
      'ALA': 'A', 'VAL':'V', 'GLU': 'E', 'TYR': 'Y', 'MET': 'M'}
     return d[r]
 
+# ! Using code from GitHub foxtromike/BioTools/pdb2pyg2.py
 def parse_protein(proteinpdb):
     # Parse the protein graph
     parser = PDBParser(QUIET=True)
